@@ -13,6 +13,7 @@ class Settings {
 	{
 		if( is_null($value = Config::get('settings::'.$name)) ) 
 		{
+			// throw exception if config key not found
 			throw new KeyNotFoundException('The config key "'.$name.'" cannot be found');
 		}
 
