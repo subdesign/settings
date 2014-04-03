@@ -1,0 +1,20 @@
+{
+    "name": "bszalai/settings",
+    "description": "",
+    "authors": [
+        {
+            "name": "Barna Szalai",
+            "email": "szalai.b@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Bszalai\\Settings": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
